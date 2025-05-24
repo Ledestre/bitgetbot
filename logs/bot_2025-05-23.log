@@ -1,0 +1,148 @@
+2025-05-23 02:36:14 | INFO | üöÄ Bot UTBot lanc√©
+2025-05-23 02:36:16 | INFO | ‚è∏Ô∏è Aucun signal clair | Prix actuel : 2650.91
+2025-05-23 02:37:18 | INFO | ‚è∏Ô∏è Aucun signal clair | Prix actuel : 2649.27
+2025-05-23 02:38:19 | INFO | ‚è∏Ô∏è Aucun signal clair | Prix actuel : 2652.25
+2025-05-23 02:39:20 | INFO | ‚è∏Ô∏è Aucun signal clair | Prix actuel : 2648.00
+2025-05-23 02:40:22 | INFO | ‚è∏Ô∏è Aucun signal clair | Prix actuel : 2651.40
+2025-05-23 02:41:22 | INFO | ‚è∏Ô∏è Aucun signal clair | Prix actuel : 2653.98
+2025-05-23 02:42:24 | INFO | ‚è∏Ô∏è Aucun signal clair | Prix actuel : 2654.09
+2025-05-23 02:43:25 | INFO | ‚è∏Ô∏è Aucun signal clair | Prix actuel : 2650.28
+2025-05-23 02:44:26 | INFO | ‚è∏Ô∏è Aucun signal clair | Prix actuel : 2649.96
+2025-05-23 02:45:27 | INFO | ‚è∏Ô∏è Aucun signal clair | Prix actuel : 2650.99
+2025-05-23 02:46:28 | INFO | ‚è∏Ô∏è Aucun signal clair | Prix actuel : 2654.88
+2025-05-23 02:47:30 | INFO | ‚è∏Ô∏è Aucun signal clair | Prix actuel : 2653.68
+2025-05-23 02:48:31 | INFO | ‚è∏Ô∏è Aucun signal clair | Prix actuel : 2672.87
+2025-05-23 02:49:31 | INFO | ‚è∏Ô∏è Aucun signal clair | Prix actuel : 2676.18
+2025-05-23 02:50:33 | INFO | ‚è∏Ô∏è Aucun signal clair | Prix actuel : 2670.06
+2025-05-23 02:50:41 | INFO | üõë Interruption manuelle du bot.
+2025-05-23 02:50:46 | INFO | üöÄ Bot UTBot avec logique de position lanc√©
+2025-05-23 02:54:49 | INFO | üõë Interruption manuelle du bot.
+2025-05-23 02:55:07 | INFO | üöÄ Bot UTBot avec logique de position lanc√©
+2025-05-23 03:04:45 | INFO | üõë Interruption manuelle du bot.
+2025-05-23 03:04:49 | INFO | üöÄ Bot UTBot avec logique de position lanc√©
+2025-05-23 03:04:52 | INFO | üìä Prix actuel : 2659.20
+2025-05-23 03:05:53 | INFO | üìä Prix actuel : 2651.18
+2025-05-23 03:06:55 | INFO | üìä Prix actuel : 2651.25
+2025-05-23 03:07:20 | INFO | üõë Interruption manuelle du bot.
+2025-05-23 03:07:26 | INFO | üöÄ Bot UTBot avec logique de position lanc√©
+2025-05-23 03:07:28 | INFO | üìä Prix actuel : 2654.44
+2025-05-23 03:08:29 | INFO | üìä Prix actuel : 2652.52
+2025-05-23 03:09:30 | INFO | üìä Prix actuel : 2654.92
+2025-05-23 03:10:31 | INFO | üìä Prix actuel : 2655.55
+2025-05-23 03:11:33 | INFO | üìä Prix actuel : 2657.03
+2025-05-23 03:12:34 | INFO | üìä Prix actuel : 2656.62
+2025-05-23 03:13:22 | INFO | üõë Interruption manuelle du bot.
+2025-05-23 03:13:27 | INFO | üöÄ Bot UTBot (entr√©e imm√©diate) lanc√©
+2025-05-23 03:13:31 | INFO | üìâ Prix ETH/USDT : 2659.94
+2025-05-23 03:14:31 | INFO | üìâ Prix ETH/USDT : 2659.86
+2025-05-23 03:15:32 | INFO | üìâ Prix ETH/USDT : 2655.84
+2025-05-23 03:16:32 | INFO | üìâ Prix ETH/USDT : 2657.19
+2025-05-23 03:17:33 | INFO | üìâ Prix ETH/USDT : 2657.84
+2025-05-23 03:18:34 | INFO | üìâ Prix ETH/USDT : 2660.07
+2025-05-23 03:19:37 | INFO | üìâ Prix ETH/USDT : 2658.60
+2025-05-23 03:20:38 | INFO | üìâ Prix ETH/USDT : 2657.55
+2025-05-23 03:21:39 | INFO | üìâ Prix ETH/USDT : 2658.06
+2025-05-23 03:22:39 | ERROR | Erreur API Bitget : HTTPSConnectionPool(host='api.bitget.com', port=443): Max retries exceeded with url: /api/mix/v1/market/ticker?symbol=ETHUSDT_UMCBL (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C1C3737890>: Failed to resolve 'api.bitget.com' ([Errno 11001] getaddrinfo failed)"))
+2025-05-23 03:23:39 | ERROR | Erreur API Bitget : HTTPSConnectionPool(host='api.bitget.com', port=443): Max retries exceeded with url: /api/mix/v1/market/ticker?symbol=ETHUSDT_UMCBL (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C1C3737ED0>: Failed to resolve 'api.bitget.com' ([Errno 11001] getaddrinfo failed)"))
+2025-05-23 03:24:39 | ERROR | Erreur API Bitget : HTTPSConnectionPool(host='api.bitget.com', port=443): Max retries exceeded with url: /api/mix/v1/market/ticker?symbol=ETHUSDT_UMCBL (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C1C3844410>: Failed to resolve 'api.bitget.com' ([Errno 11001] getaddrinfo failed)"))
+2025-05-23 03:25:39 | ERROR | Erreur API Bitget : HTTPSConnectionPool(host='api.bitget.com', port=443): Max retries exceeded with url: /api/mix/v1/market/ticker?symbol=ETHUSDT_UMCBL (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C1C3844A50>: Failed to resolve 'api.bitget.com' ([Errno 11001] getaddrinfo failed)"))
+2025-05-23 03:26:39 | ERROR | Erreur API Bitget : HTTPSConnectionPool(host='api.bitget.com', port=443): Max retries exceeded with url: /api/mix/v1/market/ticker?symbol=ETHUSDT_UMCBL (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C1C3844B90>: Failed to resolve 'api.bitget.com' ([Errno 11001] getaddrinfo failed)"))
+2025-05-23 03:27:41 | INFO | üìâ Prix ETH/USDT : 2664.77
+2025-05-23 03:28:43 | INFO | üìâ Prix ETH/USDT : 2666.96
+2025-05-23 03:29:43 | INFO | üìâ Prix ETH/USDT : 2668.93
+2025-05-23 03:30:44 | INFO | üìâ Prix ETH/USDT : 2670.88
+2025-05-23 03:31:46 | INFO | üìâ Prix ETH/USDT : 2685.58
+2025-05-23 03:32:47 | INFO | üìâ Prix ETH/USDT : 2681.46
+2025-05-23 03:33:11 | INFO | üõë Bot arr√™t√© manuellement
+2025-05-23 03:34:32,439 | INFO | Prix actuel : 2678.60 | Trend dÈtectÈ : 0
+2025-05-23 03:35:33,005 | INFO | Prix actuel : 2679.42 | Trend dÈtectÈ : 0
+2025-05-23 03:36:34,260 | INFO | Prix actuel : 2679.17 | Trend dÈtectÈ : 0
+2025-05-23 03:37:34,701 | INFO | Prix actuel : 2683.81 | Trend dÈtectÈ : 0
+2025-05-23 03:38:36,329 | INFO | Prix actuel : 2683.89 | Trend dÈtectÈ : 0
+2025-05-23 03:39:37,482 | INFO | Prix actuel : 2690.85 | Trend dÈtectÈ : 0
+2025-05-23 03:40:39,120 | INFO | Prix actuel : 2686.50 | Trend dÈtectÈ : 0
+2025-05-23 03:41:40,624 | INFO | Prix actuel : 2681.65 | Trend dÈtectÈ : 0
+2025-05-23 03:42:43,089 | INFO | Prix actuel : 2681.05 | Trend dÈtectÈ : 0
+2025-05-23 03:43:43,574 | INFO | Prix actuel : 2675.14 | Trend dÈtectÈ : 0
+2025-05-23 03:44:45,248 | INFO | Prix actuel : 2675.91 | Trend dÈtectÈ : 0
+2025-05-23 03:45:46,530 | INFO | Prix actuel : 2679.43 | Trend dÈtectÈ : 0
+2025-05-23 03:46:46,950 | INFO | Prix actuel : 2678.59 | Trend dÈtectÈ : 0
+2025-05-23 03:47:47,816 | INFO | Prix actuel : 2677.73 | Trend dÈtectÈ : 0
+2025-05-23 03:48:48,669 | INFO | Prix actuel : 2672.81 | Trend dÈtectÈ : 0
+2025-05-23 03:53:32,925 | INFO | Bot UTBot relancÈ
+2025-05-23 03:53:36,927 | INFO | Prix actuel : 2678.63 | Trend dÈtectÈ : 0
+2025-05-23 03:54:34,599 | INFO | Bot UTBot relancÈ
+2025-05-23 03:54:35,250 | INFO | Prix actuel : 2676.00 | Trend dÈtectÈ : 0
+2025-05-23 03:55:35,956 | INFO | Prix actuel : 2670.81 | Trend dÈtectÈ : 0
+2025-05-23 03:56:36,398 | INFO | Prix actuel : 2672.10 | Trend dÈtectÈ : 0
+2025-05-23 03:57:37,815 | INFO | Prix actuel : 2672.21 | Trend dÈtectÈ : 0
+2025-05-23 03:58:40,181 | INFO | Prix actuel : 2674.15 | Trend dÈtectÈ : 0
+2025-05-23 03:59:41,663 | INFO | Prix actuel : 2674.03 | Trend dÈtectÈ : 0
+2025-05-23 04:00:42,195 | INFO | Prix actuel : 2673.61 | Trend dÈtectÈ : 0
+2025-05-23 04:01:42,642 | INFO | Prix actuel : 2673.21 | Trend dÈtectÈ : 0
+2025-05-23 04:02:43,238 | INFO | Prix actuel : 2675.11 | Trend dÈtectÈ : 0
+2025-05-23 04:03:43,775 | INFO | Prix actuel : 2678.06 | Trend dÈtectÈ : 0
+2025-05-23 04:04:30,937 | INFO | Bot UTBot relancÈ
+2025-05-23 04:19:36,554 | INFO | Bot UTBot relancÈ
+2025-05-23 17:23:02,735 | INFO | Bot UTBot relancÈ
+2025-05-23 17:24:04,088 | ERROR | Erreur API Bitget : HTTPSConnectionPool(host='api.bitget.com', port=443): Max retries exceeded with url: /api/mix/v1/market/ticker?symbol=ETHUSDT_UMCBL (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012AC1870190>: Failed to resolve 'api.bitget.com' ([Errno 11001] getaddrinfo failed)"))
+2025-05-23 17:24:04,089 | WARNING | DonnÈes live indisponibles, attente...
+2025-05-23 17:39:28,964 | ERROR | Erreur API Bitget : HTTPSConnectionPool(host='api.bitget.com', port=443): Max retries exceeded with url: /api/mix/v1/market/ticker?symbol=ETHUSDT_UMCBL (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012AC175F890>: Failed to resolve 'api.bitget.com' ([Errno 11001] getaddrinfo failed)"))
+2025-05-23 17:39:28,965 | WARNING | DonnÈes live indisponibles, attente...
+2025-05-23 17:42:30,314 | ERROR | Erreur API Bitget : HTTPSConnectionPool(host='api.bitget.com', port=443): Max retries exceeded with url: /api/mix/v1/market/ticker?symbol=ETHUSDT_UMCBL (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012AC175FC50>: Failed to resolve 'api.bitget.com' ([Errno 11001] getaddrinfo failed)"))
+2025-05-23 17:42:30,315 | WARNING | DonnÈes live indisponibles, attente...
+2025-05-23 17:47:36,058 | ERROR | Erreur API Bitget : HTTPSConnectionPool(host='api.bitget.com', port=443): Max retries exceeded with url: /api/mix/v1/market/ticker?symbol=ETHUSDT_UMCBL (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012AC175FC50>: Failed to resolve 'api.bitget.com' ([Errno 11001] getaddrinfo failed)"))
+2025-05-23 17:47:36,059 | WARNING | DonnÈes live indisponibles, attente...
+2025-05-23 19:19:47,483 | WARNING | DonnÈes live indisponibles, attente...
+2025-05-23 19:44:06,309 | INFO | Bot UTBot relancÈ avec signal UTBot officiel
+2025-05-23 19:44:09,487 | INFO | Prix : 2569.01 | Tendance : 0 | Position : None
+2025-05-23 19:45:11,046 | INFO | Prix : 2569.09 | Tendance : 0 | Position : None
+2025-05-23 19:46:13,205 | INFO | Prix : 2573.06 | Tendance : 0 | Position : None
+2025-05-23 19:47:15,712 | INFO | Prix : 2575.73 | Tendance : 0 | Position : None
+2025-05-23 19:48:17,766 | INFO | Prix : 2576.63 | Tendance : 0 | Position : None
+2025-05-23 19:49:19,001 | INFO | Prix : 2574.41 | Tendance : 0 | Position : None
+2025-05-23 19:50:20,101 | INFO | Prix : 2575.66 | Tendance : 0 | Position : None
+2025-05-23 19:51:22,059 | INFO | Prix : 2576.19 | Tendance : 0 | Position : None
+2025-05-23 19:52:23,420 | INFO | Prix : 2577.79 | Tendance : 0 | Position : None
+2025-05-23 19:53:24,037 | INFO | Prix : 2579.00 | Tendance : 0 | Position : None
+2025-05-23 19:54:25,263 | INFO | Prix : 2577.27 | Tendance : 0 | Position : None
+2025-05-23 19:54:41,520 | INFO | Bot UTBot dÈmarrÈ avec donnÈes historiques Bitget
+2025-05-23 19:54:43,062 | INFO | Prix : 2577.28 | Tendance : 0 | Position : None
+2025-05-23 19:55:43,798 | INFO | Prix : 2577.89 | Tendance : 0 | Position : None
+2025-05-23 19:56:45,788 | INFO | Prix : 2575.44 | Tendance : 0 | Position : None
+2025-05-23 19:57:46,217 | INFO | Prix : 2574.53 | Tendance : 0 | Position : None
+2025-05-23 19:58:12,303 | INFO | Bot UTBot dÈmarrÈ avec donnÈes historiques Bitget
+2025-05-23 19:58:12,877 | INFO | Prix : 2574.94 | Tendance : 0 | Position : None
+2025-05-23 20:06:44,619 | INFO | Bot UTBot dÈmarrÈ avec donnÈes historiques Bitget
+2025-05-23 20:06:45,303 | INFO | Prix : 2579.78 | Tendance : 0 | Position : None
+2025-05-23 20:07:45,917 | INFO | Prix : 2575.42 | Tendance : 0 | Position : None
+2025-05-23 20:08:46,418 | INFO | Prix : 2579.75 | Tendance : 0 | Position : None
+2025-05-23 20:09:47,043 | INFO | Prix : 2576.17 | Tendance : 0 | Position : None
+2025-05-23 20:10:47,686 | INFO | Prix : 2573.55 | Tendance : 0 | Position : None
+2025-05-23 20:11:48,158 | INFO | Prix : 2572.36 | Tendance : 0 | Position : None
+2025-05-23 20:12:48,644 | INFO | Prix : 2572.18 | Tendance : 0 | Position : None
+2025-05-23 20:13:49,119 | INFO | Prix : 2573.60 | Tendance : 0 | Position : None
+2025-05-23 20:14:49,654 | INFO | Prix : 2574.00 | Tendance : 0 | Position : None
+2025-05-23 20:15:50,104 | INFO | Prix : 2574.36 | Tendance : 0 | Position : None
+2025-05-23 20:16:50,625 | INFO | Prix : 2575.44 | Tendance : 0 | Position : None
+2025-05-23 20:17:51,214 | INFO | Prix : 2573.43 | Tendance : 0 | Position : None
+2025-05-23 20:18:51,668 | INFO | Prix : 2572.18 | Tendance : 0 | Position : None
+2025-05-23 20:19:52,128 | INFO | Prix : 2568.83 | Tendance : 0 | Position : None
+2025-05-23 20:20:52,606 | INFO | Prix : 2560.41 | Tendance : 0 | Position : None
+2025-05-23 20:21:53,097 | INFO | Prix : 2560.91 | Tendance : 0 | Position : None
+2025-05-23 20:22:53,533 | INFO | Prix : 2556.53 | Tendance : 0 | Position : None
+2025-05-23 20:23:53,999 | INFO | Prix : 2563.45 | Tendance : 0 | Position : None
+2025-05-23 20:24:54,452 | INFO | Prix : 2565.25 | Tendance : 0 | Position : None
+2025-05-23 20:25:54,991 | INFO | Prix : 2563.86 | Tendance : 0 | Position : None
+2025-05-23 20:26:55,583 | INFO | Prix : 2566.48 | Tendance : 0 | Position : None
+2025-05-23 20:27:56,155 | INFO | Prix : 2568.03 | Tendance : 0 | Position : None
+2025-05-23 20:28:56,671 | INFO | Prix : 2564.36 | Tendance : 0 | Position : None
+2025-05-23 20:29:57,273 | INFO | Prix : 2565.58 | Tendance : 0 | Position : None
+2025-05-23 20:30:57,778 | INFO | Prix : 2566.12 | Tendance : 0 | Position : None
+2025-05-23 20:31:58,267 | INFO | Prix : 2566.00 | Tendance : 0 | Position : None
+2025-05-23 20:32:58,741 | INFO | Prix : 2563.34 | Tendance : 0 | Position : None
+2025-05-23 20:33:59,214 | INFO | Prix : 2562.60 | Tendance : 0 | Position : None
+2025-05-23 20:34:59,723 | INFO | Prix : 2563.27 | Tendance : 0 | Position : None
+2025-05-23 20:36:00,215 | INFO | Prix : 2565.35 | Tendance : 0 | Position : None
+2025-05-23 20:37:00,697 | INFO | Prix : 2568.28 | Tendance : 0 | Position : None
+2025-05-23 20:38:01,221 | INFO | Prix : 2567.75 | Tendance : 0 | Position : None
