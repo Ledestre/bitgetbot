@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: bitgetbot
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python startup_master.py"
+    envVars:
+      - key: PORT
+        value: 5000
+    plan: free
+    autoDeploy: true
