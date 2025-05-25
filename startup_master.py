@@ -85,8 +85,6 @@ def fetch_price():
         full_url = url + parse_params_to_str(params)
         res = requests.get(full_url, headers=headers, timeout=10)
         data = res.json()
-        if DEBUG:
-            print(f"[DEBUG] fetch_price response: {data}")
         if data.get("code") == "00000":
             return float(data["data"][0]["lastPr"])
         return None
@@ -95,7 +93,6 @@ def fetch_price():
         return None
 
 def place_order(side, price):
-    print(f"[DEBUG] Appel de place_order({side}, {price})")
     url = f"{API_BASE_URL}/api/v2/mix/order/place-order"
     path = "/api/v2/mix/order/place-order"
     tp = round(price * 1.30, 2)
@@ -122,11 +119,12 @@ def place_order(side, price):
         print(f"[SIMULATION] {side.upper()} simulé à {price:.2f}")
         return
     try:
-        res = requests.post(url, headers=headers, data=json.dumps(body_dict))
-        print(f"[ORDER] {side.upper()} @ {price:.2f} | Status: {res.status_code} | Réponse: {res.text}")
+        res = requests.post(url, headers=headers, data=json.dumps(body_dict), timeout=10)
+        print(f"[ORDER DEBUG] Payload envoyé : {json.dumps(body_dict)}")
+        print(f"[ORDER DEBUG] Headers : {headers}")
+        print(f"[ORDER DEBUG] Réponse brute : {res.status_code} | {res.text}")
     except Exception as e:
-        print(f"[ORDER] Erreur : {e}")
-        send_telegram(f"[ORDER ERROR] {e}")
+        print(f"[ORDER] Exception lors de la requête : {e}")
 
 @app.route("/webhook", methods=["POST"])
 def webhook():
@@ -148,18 +146,12 @@ def trading_loop():
         while running:
             with signal_lock:
                 signal = last_signal
+                last_signal = None
             price = fetch_price()
-
-            if DEBUG:
-                print(f"[DEBUG] signal: {signal}, price: {price}, position: {position}")
-
+            print(f"[LOOP] Signal reçu : {signal} | Position actuelle : {position} | Prix : {price}")
             if not signal or not price:
                 time.sleep(FETCH_INTERVAL)
                 continue
-
-            with signal_lock:
-                last_signal = None
-
             if position and ((price - entry_price) / entry_price) * (1 if position == "buy" else -1) <= -0.15:
                 pnl = ((price - entry_price) / entry_price) * capital * LEVERAGE
                 capital += pnl
@@ -167,8 +159,8 @@ def trading_loop():
                 send_telegram(f"❌ STOP LOSS | PnL: {pnl:.2f} USDT")
                 position = None
                 continue
-            if signal == position:
-                continue
+            # if signal == position:
+            #     continue
             if signal == "buy":
                 if position == "sell":
                     pnl = (entry_price - price) / entry_price * capital * LEVERAGE
@@ -197,7 +189,7 @@ def trading_loop():
         send_telegram("Bot arrêté proprement")
 
 if __name__ == "__main__":
-    print(f"🟢 Bot prêt. En attente de signal webhook... DRY_RUN: {DRY_RUN}")
+    print("🟢 Bot prêt. En attente de signal webhook...")
     trading_thread = threading.Thread(target=trading_loop)
     trading_thread.start()
     port = int(os.environ.get("PORT", 10000))
